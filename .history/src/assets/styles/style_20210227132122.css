@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caveat+Brush&display=swap');
+
+.container {
+    margin: 15px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: #2F4B58;    
+    max-width: 1500px;
+}
+
+h2 {
+    font-family:  Caveat Brush, Helvetica, sans-serif; 
+    color: #2F4B58;
+}
+
+/*-----------------------Header ----------*/
+
+.navbar-brand {
+    float: left;
+    color: #2F4B58;
+    font-family:  Caveat Brush, Helvetica, sans-serif;
+    font-size: 280%; 
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+
+}
+
+.navbar-toggler {
+    border: 2px solid #2F4B58;
+    color: #2F4B58;
+}
+
+.navbar-toggler.icon{
+
+}
+
+
+
+
+
+
+.menu a {
+    text-decoration: none;
+    color: #2F4B58;
+}  
+
+.menu  {
+list-style-type: none;
+margin-right: 5%;
+margin-top: 30px; /* CHAPUZA  */
+word-spacing: 5px;
+}
+
+.menu ul {
+    float:right; 
+    margin-left: 10px;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+
+/*-----------------------Heeo-image ----------*/
+
+.container-hero {
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-image {
+    height: 400px;
+    width: 100%;
+    background: url(../images/milk-kefir-grains-spoon_1024x1024.jpg) no-repeat center;
+    animation-name: hero-zoom;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+/*------Animation of the Hero image-------*/
+
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
