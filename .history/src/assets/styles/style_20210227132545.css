@@ -16,25 +16,6 @@ h2 {
     color: #2F4B58;
 }
 
-
-/*----------------------BORDER ROWS AND COLUMNS----------*/
-
-.test-red {
-    border: 3px solid red
-}
-
-.test-blue {
-    border:1px solid blue
-}
-
-
-
-
-
-
-
-
-
 /*-----------------------Header ----------*/
 
 .navbar-brand {
@@ -47,14 +28,9 @@ h2 {
 }
 
 .navbar-nav {
-    float: right;
-}
-
-.navbar-nav li a{
     margin-top: 20px;
     color: #2F4B58;
 }
-
 
 .navbar-toggler {
     border: 2px solid #2F4B58;
@@ -93,7 +69,7 @@ word-spacing: 5px;
 }
 
 
-/*-----------------------Hero-image ----------*/
+/*-----------------------Heeo-image ----------*/
 
 .container-hero {
     height: 400px;
@@ -119,5 +95,3 @@ word-spacing: 5px;
         transform: scale(1.2);
     }
 }
-
-/*-----------------------What-is-kefir-are----------*/

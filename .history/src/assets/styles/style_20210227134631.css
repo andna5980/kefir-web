@@ -16,25 +16,6 @@ h2 {
     color: #2F4B58;
 }
 
-
-/*----------------------BORDER ROWS AND COLUMNS----------*/
-
-.test-red {
-    border: 3px solid red
-}
-
-.test-blue {
-    border:1px solid blue
-}
-
-
-
-
-
-
-
-
-
 /*-----------------------Header ----------*/
 
 .navbar-brand {
@@ -93,7 +74,7 @@ word-spacing: 5px;
 }
 
 
-/*-----------------------Hero-image ----------*/
+/*-----------------------Heeo-image ----------*/
 
 .container-hero {
     height: 400px;
@@ -119,5 +100,3 @@ word-spacing: 5px;
         transform: scale(1.2);
     }
 }
-
-/*-----------------------What-is-kefir-are----------*/
